@@ -1,0 +1,8 @@
+{
+  "media_dir": "（必填）下载的视频与转写稿存放的根目录，例如 D:/我的转写输出 或 /Users/xxx/视频转文字",
+  "runtime_dir": "（由 setup.py 自动生成）隔离环境根目录，默认 <skill>/runtime",
+  "python": "（由 setup.py 自动生成）venv 内 python 的绝对路径",
+  "models_cache_dir": "（由 setup.py 自动生成）模型缓存根目录，默认 <skill>/runtime；其下 models/ 存 SenseVoice 与 fsmn-vad",
+  "bin_dir": "（由 setup.py 自动生成）ffmpeg 所在目录，默认 <skill>/runtime/bin",
+  "proxy": "（可选，境外站点用）本地代理地址，例如 http://127.0.0.1:7897；留空则不使用"
+}

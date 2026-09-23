@@ -1,0 +1,14 @@
+# 运行时产物（不同步到仓库）
+runtime/
+config.json
+__pycache__/
+*.pyc
+
+# 下载与转写产物
+*.mp4
+*.mp3
+*.m4a
+*.wav
+*.webm
+*-转写稿.txt
+*.log
